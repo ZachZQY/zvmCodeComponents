@@ -1,0 +1,143 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-around {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-start {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+.gap-5 {
+    gap: 5px;
+}
+
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-24{
+    gap: 24px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.word-break{
+    word-break: break-all;
+}
+
+.p5{
+    padding: 5px;
+}
+
+.m5{
+    margin: 5px;
+}
+.p10{
+    padding: 10px;
+}
+
+.m10{
+    margin: 10px;
+}
+
+.pl5{
+    padding-left: 5px;
+}
+
+.pr5{
+    padding-right: 5px;
+}
+
+.pt5{
+    padding-top: 5px;
+}
+
+.pb5{
+    padding-bottom: 5px;
+}
+
+.pl10{
+    padding-left: 10px;
+}
+
+.pr10{
+    padding-right: 10px;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+
+
+.border-black{
+    border: 1px solid black;
+}
+

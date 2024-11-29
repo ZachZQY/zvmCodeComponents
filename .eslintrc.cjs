@@ -1,0 +1,32 @@
+/* eslint-disable no-undef */
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+  ],
+  parserOptions: { ecmaVersion: 14, sourceType: 'module' },
+  plugins: ['react-refresh'],
+  rules: {
+    'react-refresh/only-export-components': 'warn',
+    'import/no-unresolved': 0,
+    'no-empty': 0,
+    'no-empty-pattern': 0,
+    'no-extra-boolean-cast': 0,
+    'no-useless-catch': 0,
+    'react/require-default-props': 0,
+    '@typescript-eslint/rule-name': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/no-empty-interface': 0,
+    '@typescript-eslint/no-empty-function': 0,
+    '@typescript-eslint/no-non-null-assertion': 0,
+    '@typescript-eslint/no-this-alias': 0,
+    '@typescript-eslint/no-unused-vars': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 0,
+    'no-case-declarations': 0,
+  },
+};

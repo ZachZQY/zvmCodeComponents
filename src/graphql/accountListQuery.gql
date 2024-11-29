@@ -1,0 +1,19 @@
+query accountList(
+  $where: account_bool_exp!
+  $orderBy: [account_order_by!]!
+  $distinct_on: [account_select_column!]!
+  $offset: Int
+) {
+  account(
+    where: $where
+    order_by: $orderBy
+    distinct_on: $distinct_on
+    limit: 10
+    offset: $offset
+  ) {
+    id
+    created_at
+    username
+    updated_at
+  }
+}
